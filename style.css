@@ -109,7 +109,7 @@ body{
 
 .app{
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%) scale(.9);
     background: #4874ad;
@@ -177,7 +177,7 @@ body{
     width: 100px;
     border: 1.5px solid #EFE9E7;
     padding: 10px;
-    margin: 20px auto 0;
+    margin: auto;
     border-radius: 13px;
     cursor: pointer;
     transition: all 0.4s;
@@ -276,14 +276,12 @@ body{
   to {opacity: 1; transform: scale(1);}
 }
 
-
-
 .correct{
     background: #78bb57;
     color:#373c43
 }
 .incorrect{
-    background: #373c43;
+    background: #e9a069;
     color: #f9f3dc;
 }
 
